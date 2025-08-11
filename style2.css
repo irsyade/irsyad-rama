@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Playwrite+HU:wght@100..400&display=swap');
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-family: "Playwrite HU", cursive;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+
+}
+/* menu */
+nav {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width: 35%;
+}
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.menu > ul > li  a {
+   text-decoration: none;
+   color: white;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+/* hero */
+
+header {
+    background: url(https://4kwallpapers.com/images/wallpapers/one-piece-character-1920x1080-15328.jpeg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 5px;
+    text-shadow: black;
+}
+.header-opacity {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.header-jumbotron {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.header-jumbotron > h4 {
+    color: #EDC349;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+.header-jumbotron > h5 {
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.header-jumbotron > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-shadow: none;
+}
+
+.button {
+    background-color: yellow;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+}
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20px; 
+}
+
+/* statistic */
+
+#statistic {
+    background-color: #393E46;
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+#statistic > .wrapper {
+    padding: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic > .wrapper > div { 
+    text-align: center;
+}
+
+#statistic > .wrapper > div > p {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic > .wrapper > div > i {
+    margin-right: 10px;
+}
+#statistic > .wrapper > div > small {
+    font-size: 0.8rem;
+}
+
+/* premium course */
+#premium-course {
+    background-color: #222831;
+    color: #fff;
+}
+
+#premium-course > .Wrapper {
+    padding: 50px 0px 50px 0px;
+}
+#premium-course > .Wrapper > h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+#premium-course > .Wrapper > h4 > span {
+    color: #EDC349;
+}
+
+#premium-course > .Wrapper > p {
+    text-align: center;
+     margin: 0px;
+    padding: 0px;
+    font-size: 0.6rem;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+}
+
+.grid > .item {
+    border: 1px solid #666;
+    background-color: #393E46;
+    border-radius: 5px;
+    position: relative;
+}
+
+.grid > .item > img {
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid > .item > .item-detail {
+    padding: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 80%;
+    font-family: "Kanit", sans-serif;
+}
+
+.grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.grid > .item > .item-detail > div > small {
+    color: #ccc;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.grid > .item > .item-detail > div > a {
+    font-size: 1rem;
+    color: #333;
+    font-weight: normal;
+}
+
+/* Tentang Saya */
+
+#tentang-saya {
+    background-color: #fff;
+    color: #333;
+}
+
+#tentang-saya > .Wrapper {
+    padding: 50px 0px 5% 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     font-family: "Kanit", sans-serif;
+}
+
+#tentang-saya > .Wrapper > h4 {
+    font-size: 2.1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tentang-saya > .Wrapper > p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    margin-bottom: 50px;        
+   
+}
+
+#tentang-saya > .Wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-saya > .Wrapper > div > .foto {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #333 0px 0px 10px;
+    border-radius: 10px;
+}
+
+
+#tentang-saya > .besar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: #333 0px 0px 10px;
+}
+.besar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+#tentang-saya > .Wrapper > div > .desc {
+    width: 70%;
+    padding: 15px;
+    margin: 5px;
+    background-color: #eee;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tentang-saya > .Wrapper > div > .desc > p {
+    margin: 0px 0px 10px 0px;
+    font-size: 1rem;
+    line-height: 1.9rem;
+}
+
+#tentang-saya > .Wrapper > div > .desc > .social {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#tentang-saya > .Wrapper > div > .desc > .social > a {
+    color: #00ADB5;
+}
+
+/* free course */
+
+#free-course {
+    background-color: #393e46;
+    color: #fff;
+}
+
+#free-course > .Wrapper {
+    padding: 50px 0px 50px 0px;
+}
+#free-course > .Wrapper > h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", sans-serif;
+}
+
+#free-course > .Wrapper > h4 > span {
+    color: #EDC349;
+}
+
+#free-course > .Wrapper > p {
+    text-align: center;
+     margin: 0px;
+    padding: 0px;
+    font-size: 0.6rem;
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 50px;
+}
+
+#free-course > .Wrapper > .grid > .item {
+    background-color: #222831;
+    margin: 0%;
+}
+
+#free-course > .Wrapper > .grid > .item > .item-detail {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.4rem;
+    width: 100%;
+    
+}
+
+#free-course > .Wrapper > .grid > .item > .item-detail > img {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#free-course > .Wrapper > .grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* copyright */
+
+footer {
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > .Wrapper {
+    padding: 20px 0px;
+    font-size: 0.8rem;
+}
+
+/* 1024, 900, 768, 600, 450 */
+
+@media only screen and (max-width:1024px){
+    .wrapper {
+ #statistic > .wrapper > div > p {
+        width: 90%;
+        font-size: 0.8rem;
+        margin: 0px;
+        padding: 0px;
+ }
+    }
+
+}
+
+@media only screen and (max-width:900px){
+    #statistic > .wrapper > div > p {
+   
+}
+}
